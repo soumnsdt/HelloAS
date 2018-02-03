@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Demo001</string>
+    <string name="green_name">小草</string>
+    <string name="meinv_name">美女</string>
+    <string name="view_name">风景</string>
+    <string name="tree_name">树</string>
+    <string name="dictionary_name">字典</string>
+    <string name="lookupword_name">input a word.</string>
+    <string name="btn_lookup_name">Look Up</string>
+    <string name="lookUpTextView_hint">Word Dictionary.</string>
+    <string-array name="list">
+        <item>yyd</item>
+        <item>gy</item>
+        <item>dt</item>
+        <item>jl</item>
+        <item>ywx</item>
+    </string-array>
+</resources>

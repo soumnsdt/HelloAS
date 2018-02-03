@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/green_name"
+            android:onClick="choosePic"/>
+        <RadioButton
+            android:id="@+id/tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tree_name"
+            android:onClick="choosePic"/>
+        <RadioButton
+            android:id="@+id/meinv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meinv_name"
+            android:onClick="choosePic"/>
+        <RadioButton
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_name"
+            android:onClick="choosePic"/>
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/green"/>
+
+</LinearLayout>
